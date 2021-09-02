@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/optimise/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -823,19 +823,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/optimise/dots-bg-min.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/optimise/lines-h2-bg-min.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/optimise/la-chouette-agence-banniere-min.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/optimise/image-de-presentation-min.png");
 }
 
 @media (max-width: 1024px) {
@@ -885,10 +885,12 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+
+    /*.bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    } */
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -897,8 +899,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+       /* padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);*/
     }
 }
 
@@ -1052,4 +1054,18 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.title{
+    font-size: 20px;
+    margin: auto;
+    color: black;
+    font-weight: 500;
+}
+.italic{
+    font-style: italic;
+}
+
+.citation{
+    color: black;
 }
