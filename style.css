@@ -708,6 +708,10 @@ p {
     margin: auto auto auto auto;
 }
 
+div.social {
+padding-bottom: 20px;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
