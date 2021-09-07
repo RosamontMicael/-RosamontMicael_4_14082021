@@ -479,6 +479,13 @@ button {
     font-size: 30px!important;
 }
 
+.icon-md2 {
+    color: rgba(255, 255, 255, .6);
+    font-size: 15px;
+}
+
+
+
 .icon-lg {
     font-size: 60px!important;
 }
